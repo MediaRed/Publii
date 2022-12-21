@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="file:////home/tom/Documents/Publii/media/preview/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>file:////home/tom/Documents/Publii/media/preview/</loc>
+</url>
+<url>
+<loc>file:////home/tom/Documents/Publii/media/preview/hhhh.html</loc>
+<lastmod>2022-12-19T23:16:47-03:00</lastmod>
+<image:image>
+<image:loc>file:////home/tom/Documents/Publii/media/preview/media/posts/3/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647-3.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+</urlset>

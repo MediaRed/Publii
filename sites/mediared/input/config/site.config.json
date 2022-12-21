@@ -1,0 +1,10 @@
+{
+    "uuid": "uuid-1670972684388-504805312",
+    "name": "mediared",
+    "displayName": "mediared",
+    "logo": {
+        "icon": "web-pizza",
+        "color": 1
+    },
+    "theme": "simple"
+}
