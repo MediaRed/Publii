@@ -696,7 +696,10 @@ textarea {
 /*
  * Put your custom CSS code here
  */
- .cards-wrapper {
+ .circular {
+  border-radius: 50%;
+ }
+  .cards-wrapper {
   display: flex;
   margin: -1rem;
   outline: none;
@@ -791,6 +794,17 @@ textarea {
   4px 7px 1px #518b41, 
   6px 9px 1px #477939,
   -moz-transform: scaleY(-1);
+}
+.card-title-ref {
+ -o-transform: scaleY(-1);
+-webkit-transform: scaleY(-1);
+transform: scaleY(-1);
+-moz-transform: rotateX(210deg);
+-o-transform: rotateX(210deg);
+-webkit-transform: rotateX(210deg);
+transform: rotateX(210deg);
+perspective: 200px;
+-webkit-mask-image: -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(20%, transparent), to(rgba(0, 0, 0, 0.4))); 
 }
 
 .grid {

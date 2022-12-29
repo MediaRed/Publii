@@ -3,12 +3,31 @@
     <title>Mediared</title>
     <link href="file:////home/tom/Documents/Publii/mediared/preview/feed.xml" rel="self" />
     <link href="file:////home/tom/Documents/Publii/mediared/preview" />
-    <updated>2022-12-20T22:09:40-03:00</updated>
+    <updated>2022-12-21T20:13:21-03:00</updated>
     <author>
         <name>ivonne dos santos</name>
     </author>
     <id>file:////home/tom/Documents/Publii/mediared/preview</id>
 
+    <entry>
+        <title>Test</title>
+        <author>
+            <name>ivonne dos santos</name>
+        </author>
+        <link href="file:////home/tom/Documents/Publii/mediared/preview/test/index.html"/>
+        <id>file:////home/tom/Documents/Publii/mediared/preview/test/index.html</id>
+
+        <updated>2022-12-21T20:13:21-03:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Otros Proyectos</title>
         <author>
@@ -19,7 +38,7 @@
         <media:content url="file:////home/tom/Documents/Publii/mediared/preview/media/posts/18/nitep2.jpg" medium="image" />
             <category term="Proyectos"/>
 
-        <updated>2022-12-20T00:02:08-03:00</updated>
+        <updated>2022-12-21T18:41:45-03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="file:////home/tom/Documents/Publii/mediared/preview/media/posts/18/nitep2.jpg" alt="" />
@@ -45,7 +64,7 @@
         <media:content url="file:////home/tom/Documents/Publii/mediared/preview/media/posts/17/BET_2053-xl.jpg" medium="image" />
             <category term="Proyectos"/>
 
-        <updated>2022-12-20T00:02:17-03:00</updated>
+        <updated>2022-12-21T18:44:53-03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="file:////home/tom/Documents/Publii/mediared/preview/media/posts/17/BET_2053-xl.jpg" alt="" />
@@ -302,7 +321,7 @@
   <div  class="cards-wrapper cards-wrapper--full">
     <div class="cards" data-columns="3">
       <figure class="cards__item" :style="{width: 33.33%}" >
-      <a class="card_link" href="file:///home/tom/Documents/Publii/mediared/preview/cooperativa/index.html" data-size="800x484">
+      <a class="card_link" href="file:///home/tom/Documents/Publii/sites/mediared/preview/cooperativa/index.html" data-size="800x484">
         <img loading="lazy" 
           class="card_image" 
           {{#if @config.site.responsiveImages}}
@@ -324,7 +343,7 @@
         <p>target: {{_self}}</p>
       </a>
     </figure><figure class="cards__item" :style="{width: 33.33%}" >
-      <a class="card_link" href="file:///home/tom/Documents/Publii/mediared/preview//tags/servicios/index.html" data-size="612x384">
+      <a class="card_link" href="file:///home/tom/Documents/Publii/sites/mediared/preview//tags/servicios/index.html" data-size="612x384">
         <img loading="lazy" 
           class="card_image" 
           {{#if @config.site.responsiveImages}}
@@ -346,7 +365,7 @@
         <p>target: {{undefined}}</p>
       </a>
     </figure><figure class="cards__item" :style="{width: 33.33%}" >
-      <a class="card_link" href="file:///home/tom/Documents/Publii/mediared/preview//tags/proyectos/index.html" data-size="771x480">
+      <a class="card_link" href="file:///home/tom/Documents/Publii/sites/mediared/preview//tags/proyectos/index.html" data-size="771x480">
         <img loading="lazy" 
           class="card_image" 
           {{#if @config.site.responsiveImages}}
@@ -374,45 +393,6 @@
   <p>
     
   </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Quienes somos</title>
-        <author>
-            <name>ivonne dos santos</name>
-        </author>
-        <link href="file:////home/tom/Documents/Publii/mediared/preview/cooperativa/index.html"/>
-        <id>file:////home/tom/Documents/Publii/mediared/preview/cooperativa/index.html</id>
-        <media:content url="file:////home/tom/Documents/Publii/mediared/preview/media/posts/1/photo_2022-10-17_13-32-02.jpg" medium="image" />
-
-        <updated>2022-12-20T00:03:05-03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="file:////home/tom/Documents/Publii/mediared/preview/media/posts/1/photo_2022-10-17_13-32-02.jpg" alt="" />
-                    Después de varios años de articulación con personas y colectivos feministas del&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="file:////home/tom/Documents/Publii/mediared/preview/media/posts/1/photo_2022-10-17_13-32-02.jpg" class="type:primaryImage" alt="" /></p>
-                
-  <p>
-    Después de varios años de articulación con personas y colectivos feministas del Uruguay, MediaRed se propone potenciar esta gran Red y expandir por todo el territorio nacional, e interior rural, las metodologías de trabajo colaborativo que ha construido en estos años de activismo social, buscando crear otras formas de estar juntas, siendo sujetas políticas de la transformación social y cultural. Entendiendo que hoy la disputa por la democratización de la información, la cultura libre y la búsqueda de verdad y enunciación de todo acto de racismo, violencia, y atropello de los pueblos, debe ser narrada desde el sentir colectivo y comunitario. Este colectivo no es ajeno a nada de lo que le preocupa y por eso crea sus propias narrativas, con amor y convicción.<br>
-  </p>
-
-  <p>
-    El componente fundamental de financiación de MediaRed son nuestras horas de vida, destinadas al trabajo activista que realizamos les integrantes del grupo. La búsqueda por la sustentabilidad de la vida y de este espacio, continúa siendo un desafío para el colectivo.<br>
-  </p>
-
-  <p>
-    Luego de tres años de trabajo juntos y juntas, en el 2020 MediaRed evaluó la posibilidad de consolidarse como cooperativa de trabajo para brindar entre otras cosas, servicios de comunicación, que nos ayuden a sustentar las tareas de activismo que desarrollamos. En febrero de 2021, firmamos el estatuto, para conformarnos como tal y se puso en marcha el proyecto de la Cooperativa de Trabajo MediaRed.<br>Hoy la Cooperativa ya en funcionamiento es integrada por un equipo multidisciplinario que ofrece soluciones en comunicación.<br><br>Equipo<br>Definir si va foto o avatar// rol o minibio
-  </p>
-
-    <figure class="post__image post__image--center">
-      <img loading="lazy" src="file:///home/tom/Documents/Publii/mediared/preview/media/posts/1/nosotros-lg.jpg" height="1280" width="923" alt=""  sizes="(max-width: 1024px) 100vw, 1024px" srcset="file:///home/tom/Documents/Publii/mediared/preview/media/posts/1/responsive/nosotros-lg-xs.jpg 300w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/1/responsive/nosotros-lg-sm.jpg 480w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/1/responsive/nosotros-lg-md.jpg 768w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/1/responsive/nosotros-lg-lg.jpg 1024w">
-      
-    </figure>
             ]]>
         </content>
     </entry>
