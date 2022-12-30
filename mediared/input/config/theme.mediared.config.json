@@ -8,7 +8,7 @@
     },
     "customConfig": {
         "pageWidth": "99vw",
-        "pageMargin": "10rem",
+        "pageMargin": "15vw",
         "entryWidth": "62ch",
         "frontSource": "post",
         "frontPost": 3,
