@@ -696,6 +696,36 @@ textarea {
 /*
  * Put your custom CSS code here
  */
+ .col1 {
+  width: 100%;   
+ }
+ .col2 {
+   width: 49%;   
+ }
+ .col3 {
+   width: 32%;   
+ }
+ .col4 {
+   width: 24%;   
+ }
+ .col5 {
+   width: 19%;   
+ }
+ .col6 {
+   width: 16%;   
+ }
+ .col7 {
+   width: 14%;   
+ }
+ .col8 {
+   width: 12%;   
+ }
+ .col9 {
+   width: 11%;   
+ }
+ .col10 {
+   width: 10%;   
+ }
  .circular, .avatar > img {
   aspect-ratio: 1;
   border-radius: 50%;
@@ -704,16 +734,19 @@ textarea {
   object-fit: cover;
 }
 .card_wrapper {
-overflow: hidden;
+  overflow: hidden;
 }
+.card_wrapper.circular {
+  border-radius: 50%;
+}
+
 .cards__item.external , .card-title.external, .card-caption.external, .card_image.external {
-aspect-ratio: unset;
-text-shadow: unset;
-overflow: auto;
-color: var(--primaryBodyTextColor);
-max-height: inherit;
-width: -webkit-fill-available;
-position: inherit;
+  aspect-ratio: unset;
+  text-shadow: unset;
+  overflow: auto;
+  color: var(--primaryBodyTextColor);
+  max-height: inherit;
+  position: inherit;
 }
 .card_image.circular {
 aspect-ratio: 1;
@@ -857,9 +890,7 @@ overflow: auto;
   color: var(--color);
 }
 
-.col2 {
- min-width: 45vw;   
-}
+
 
 .c-card__header p time { display: none}
 a.button {
@@ -910,7 +941,7 @@ a.button {
 }
 .top.header > div {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
   margin: 0;
   padding: 0;
@@ -978,6 +1009,8 @@ a.button {
   font-family: var(--logo-font);
   font-size: 1.7875512975rem;
   letter-spacing: 1px;
+  height: calc(var(--header-height) * 0.6);
+  overflow: hidden;
 }
 @media all and (min-width: 56.25em) {
   .logo {
@@ -994,19 +1027,21 @@ a.button {
   outline: none;
 }
 .logo > img {
-  vertical-align: bottom;
-  max-height: var(--header-height);
+  max-height: calc(var(--header-height) * 0.6);
   width: auto;
 }
 @media all and (min-width: 56.25em) {
   .logo > img {
-    height: var(--header-height);
+    height: calc(var(--header-height) * 0.6);
   }
 }
 
 @media all and (max-width: 56.1875em) {
   .search {
     grid-area: search;
+  }
+  .logo > img {
+    height: calc(var(--header-height) * 0.6);
   }
 }
 .search__btn {
@@ -1219,10 +1254,9 @@ a.button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -1234,7 +1268,7 @@ a.button {
 }
 .nav_bar {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: center;
 }
 .navbar .navbar__menu li {
@@ -1649,7 +1683,7 @@ a.button {
 }
 @media all and (max-width: 56.1875em) {
   .container {
-    padding-top: var(--header-height);
+    padding-top: 0;
   }
 }
 @media all and (max-width: 37.5em) {
@@ -1666,7 +1700,7 @@ a.button {
   .post__page {
     margin: .5rem;
   }
-  .col2 {
+  .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10 {
     min-width: 100%;
   }
   .grid {
