@@ -12,7 +12,7 @@
     <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
     <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
     <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
-    <script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"file:////home/tom/Documents/Publii/mediared/preview/amp/cooperativa/index.html"},"headline":"Quienes somos","datePublished":"2022-10-17T12:43","dateModified":"2022-12-28T20:37","image":{"@type":"ImageObject","url":"file:///home/tom/Documents/Publii/mediared/preview/media/posts/1/photo_2022-10-17_13-32-02.jpg","height":853,"width":1280},"description":"Después de varios años de articulación con personas y colectivos feministas del&hellip;","author":{"@type":"Person","name":"ivonne dos santos","url":"file:///home/tom/Documents/Publii/mediared/preview/amp/authors/ivonne-dos-santos/"},"publisher":{"@type":"Organization","name":"ivonne dos santos","logo":{"@type":"ImageObject","url":"file:///home/tom/Documents/Publii/mediared/preview/media/website/cropped-logo-fondo-cuadrada.png","height":310,"width":310}}}</script>
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"file:////home/tom/Documents/Publii/mediared/preview/amp/cooperativa/index.html"},"headline":"Quienes somos","datePublished":"2022-10-17T12:43","dateModified":"2022-12-30T16:43","image":{"@type":"ImageObject","url":"file:///home/tom/Documents/Publii/mediared/preview/media/posts/1/photo_2022-10-17_13-32-02.jpg","height":853,"width":1280},"description":"Después de varios años de articulación con personas y colectivos feministas del&hellip;","author":{"@type":"Person","name":"ivonne dos santos","url":"file:///home/tom/Documents/Publii/mediared/preview/amp/authors/ivonne-dos-santos/"},"publisher":{"@type":"Organization","name":"ivonne dos santos","logo":{"@type":"ImageObject","url":"file:///home/tom/Documents/Publii/mediared/preview/media/website/cropped-logo-fondo-cuadrada.png","height":310,"width":310}}}</script>
     <style amp-custom>
 article,
 aside,
@@ -637,13 +637,13 @@ aside {
       <figcaption>Ivonne Dos Santos</figcaption>
     </figure>
 
-  <div  class="cards-wrapper">
+  <div  class="cards-wrapper cards-wrapper--full">
     <div class="cards" data-columns="3">
       <figure class="cards__item external col2" >
       <a class="card_link external" href="" data-size="1024x1280">
-        <div class="card_wrapper " :class="{heigh: 1280, overflow: hidden}">
+        <div class="card_wrapper  circular" :class="{heigh: 1280, overflow: hidden}">
           <amp-img 
-            class="card_image external "
+            class="card_image external  circular"
             {{#if @config.site.responsiveImages}}
                 {{responsiveImageAttributes 'tagImage' srcset.cards sizes.cards}}
             {{/if}}
@@ -659,9 +659,9 @@ aside {
       </a>
     </figure><figure class="cards__item external col2" >
       <a class="card_link external" href="" data-size="1280x1024">
-        <div class="card_wrapper " :class="{heigh: 1024, overflow: hidden}">
+        <div class="card_wrapper  circular" :class="{heigh: 1024, overflow: hidden}">
           <amp-img 
-            class="card_image external "
+            class="card_image external  circular"
             {{#if @config.site.responsiveImages}}
                 {{responsiveImageAttributes 'tagImage' srcset.cards sizes.cards}}
             {{/if}}

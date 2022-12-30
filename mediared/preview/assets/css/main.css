@@ -734,9 +734,7 @@ textarea {
   width: auto;
   object-fit: cover;
 }
-.card_wrapper, .card-title.external, .card-subtitle.external {
-  overflow: hidden;
-}
+
 .card-subtitle.external {
   text-align: center;
 }
@@ -752,9 +750,12 @@ textarea {
   max-height: inherit;
   position: inherit;
 }
+.card_wrapper, .card-title.external, .card-subtitle.external {
+  overflow: hidden;
+}
 .card_image.circular {
-aspect-ratio: 1;
-width: -webkit-fill-available;
+  aspect-ratio: 1;
+  width: -webkit-fill-available;
 }
 .card_link.external {
 position: inherit;
@@ -769,7 +770,8 @@ overflow: auto;
 
 .cards-wrapper {
   display: flex;
-  margin: var(--page-margin);
+  margin-left: var(--page-margin);
+  margin-right: var(--page-margin);
   outline: none;
   position: relative;
 }
@@ -1747,13 +1749,14 @@ a.button {
   }
 }
 .l-grid  {
- display: flex;
- margin-left: 3rem;
- margin-right: 3rem;
- padding-left: 3rem;
- padding-top: 3rem;
- padding-right: 3rem;
- width: 100%;
+  display: flex;
+  margin-left: var(--page-margin);
+  margin-right: var(--page-margin);
+  padding-left: 0;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-right: 0;
+  width: inherit;
 }
 .hero--full {
   display: flex;
@@ -1887,7 +1890,8 @@ a.button {
   display: -ms-grid;
   display: grid;
   grid-gap: var(--grid-gap);
-  margin: 0;
+  margin-left: var(--page-margin);
+  margin-right: var(--page-margin);
 }
 @media all and (min-width: 37.5em) {
   .l-grid {
@@ -2171,14 +2175,19 @@ a.button {
 }
 
 .post__page {
-  margin: var(--page-margin);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: var(--page-margin);
+  margin-right: var(--page-margin);
 }
 @media all and (min-width: 56.25em) {
   .post__entry {
     margin-top: 0;
   }
   .post__page {
-    margin: var(--page-margin);
+    margin-top: 3rem;
+    margin-left: var(--page-margin);
+    margin-right: var(--page-margin);
   }
   
 }

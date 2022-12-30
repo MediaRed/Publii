@@ -3,12 +3,91 @@
     <title>Mediared</title>
     <link href="file:////home/tom/Documents/Publii/mediared/preview/feed.xml" rel="self" />
     <link href="file:////home/tom/Documents/Publii/mediared/preview" />
-    <updated>2022-12-30T15:45:28-03:00</updated>
+    <updated>2022-12-30T16:43:02-03:00</updated>
     <author>
         <name>ivonne dos santos</name>
     </author>
     <id>file:////home/tom/Documents/Publii/mediared/preview</id>
 
+    <entry>
+        <title>Test</title>
+        <author>
+            <name>ivonne dos santos</name>
+        </author>
+        <link href="file:////home/tom/Documents/Publii/mediared/preview/test/index.html"/>
+        <id>file:////home/tom/Documents/Publii/mediared/preview/test/index.html</id>
+
+        <updated>2022-12-30T16:36:41-03:00</updated>
+            <summary>
+                <![CDATA[
+                    Title Sub {{bmah blah }} Title 2 Sub {{blah blah }} Title&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <div  class="cards-wrapper cards-wrapper--full">
+    <div class="cards" data-columns="3">
+      <figure class="cards__item external col3" >
+      <a class="card_link external" href="" data-size="800x484">
+        <div class="card_wrapper  circular" :class="{heigh: 484, overflow: hidden}">
+          <img loading="lazy" 
+            class="card_image external  circular"
+            {{#if @config.site.responsiveImages}}
+                {{responsiveImageAttributes 'tagImage' srcset.cards sizes.cards}}
+            {{/if}}
+            {{ lazyload "eager" }}
+            src="file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg" 
+            height="484" 
+            width="800" 
+            alt=""  sizes="(max-width: 1024px) 100vw, 1024px" srcset="file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/responsive/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647-xs.jpg 300w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/responsive/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647-sm.jpg 480w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/responsive/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647-md.jpg 768w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/responsive/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647-lg.jpg 1024w">
+        </div>
+        <h3 class="card-title external">Title</h3>
+        <h6  class="card-subtitle external">Sub</h6>
+        <figcaption class="card-caption external">{{bmah blah }}</figcaption>
+      </a>
+    </figure><figure class="cards__item external col3" >
+      <a class="card_link external" href="" data-size="612x384">
+        <div class="card_wrapper  circular" :class="{heigh: 384, overflow: hidden}">
+          <img loading="lazy" 
+            class="card_image external  circular"
+            {{#if @config.site.responsiveImages}}
+                {{responsiveImageAttributes 'tagImage' srcset.cards sizes.cards}}
+            {{/if}}
+            {{ lazyload "eager" }}
+            src="file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/istockphoto-517188688-612x612.jpg" 
+            height="384" 
+            width="612" 
+            alt=""  sizes="(max-width: 1024px) 100vw, 1024px" srcset="file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/responsive/istockphoto-517188688-612x612-xs.jpg 300w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/responsive/istockphoto-517188688-612x612-sm.jpg 480w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/responsive/istockphoto-517188688-612x612-md.jpg 768w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/responsive/istockphoto-517188688-612x612-lg.jpg 1024w">
+        </div>
+        <h3 class="card-title external">Title 2</h3>
+        <h6  class="card-subtitle external">Sub</h6>
+        <figcaption class="card-caption external">{{blah blah }}</figcaption>
+      </a>
+    </figure><figure class="cards__item external col3" >
+      <a class="card_link external" href="" data-size="771x480">
+        <div class="card_wrapper  circular" :class="{heigh: 480, overflow: hidden}">
+          <img loading="lazy" 
+            class="card_image external  circular"
+            {{#if @config.site.responsiveImages}}
+                {{responsiveImageAttributes 'tagImage' srcset.cards sizes.cards}}
+            {{/if}}
+            {{ lazyload "eager" }}
+            src="file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/tree-736885__480-1.jpg" 
+            height="480" 
+            width="771" 
+            alt=""  sizes="(max-width: 1024px) 100vw, 1024px" srcset="file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/responsive/tree-736885__480-1-xs.jpg 300w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/responsive/tree-736885__480-1-sm.jpg 480w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/responsive/tree-736885__480-1-md.jpg 768w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/responsive/tree-736885__480-1-lg.jpg 1024w">
+        </div>
+        <h3 class="card-title external">Title 3</h3>
+        <h6  class="card-subtitle external">Sub</h6>
+        <figcaption class="card-caption external">{{blah blah}}</figcaption>
+      </a>
+    </figure>
+    </div>
+  </div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Otros Proyectos</title>
         <author>
@@ -329,7 +408,7 @@
         <id>file:////home/tom/Documents/Publii/mediared/preview/cooperativa/index.html</id>
         <media:content url="file:////home/tom/Documents/Publii/mediared/preview/media/posts/1/photo_2022-10-17_13-32-02.jpg" medium="image" />
 
-        <updated>2022-12-28T20:37:34-03:00</updated>
+        <updated>2022-12-30T16:43:02-03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="file:////home/tom/Documents/Publii/mediared/preview/media/posts/1/photo_2022-10-17_13-32-02.jpg" alt="" />
@@ -357,13 +436,13 @@
       <figcaption>Ivonne Dos Santos</figcaption>
     </figure>
 
-  <div  class="cards-wrapper">
+  <div  class="cards-wrapper cards-wrapper--full">
     <div class="cards" data-columns="3">
       <figure class="cards__item external col2" >
       <a class="card_link external" href="" data-size="1024x1280">
-        <div class="card_wrapper " :class="{heigh: 1280, overflow: hidden}">
+        <div class="card_wrapper  circular" :class="{heigh: 1280, overflow: hidden}">
           <img loading="lazy" 
-            class="card_image external "
+            class="card_image external  circular"
             {{#if @config.site.responsiveImages}}
                 {{responsiveImageAttributes 'tagImage' srcset.cards sizes.cards}}
             {{/if}}
@@ -379,9 +458,9 @@
       </a>
     </figure><figure class="cards__item external col2" >
       <a class="card_link external" href="" data-size="1280x1024">
-        <div class="card_wrapper " :class="{heigh: 1024, overflow: hidden}">
+        <div class="card_wrapper  circular" :class="{heigh: 1024, overflow: hidden}">
           <img loading="lazy" 
-            class="card_image external "
+            class="card_image external  circular"
             {{#if @config.site.responsiveImages}}
                 {{responsiveImageAttributes 'tagImage' srcset.cards sizes.cards}}
             {{/if}}
