@@ -800,7 +800,8 @@ overflow: auto;
     flex: 1 1 auto;
     align-items: center;
     justify-content: center;
-    aspect-ratio: var(--hero-aspect-ratio);
+    aspect-ratio: 16 / 9;
+    max-height: 25vh;
     overflow: hidden;
     position: inherit;
     object-fit: cover;
@@ -887,9 +888,6 @@ overflow: auto;
   grid-gap: .5rem;
   margin: 0;  
 
-}
-.grid-item.col2 {
-  width: 100%;
 }
 .grid-item h2  {
   color: var(--primaryBodyTextColor);
@@ -2790,7 +2788,6 @@ a.button {
   padding: 0;
   margin: 0;
   text-align: center;
-  height: 20vh;
 }
 .footer a {
   color: var(--primaryFooterTextColor);
@@ -2805,13 +2802,8 @@ a.button {
   text-transform: uppercase;
 }
 .footer__social {
-<<<<<<< HEAD
-  top: -15vh;
-  right: -16vh;
-=======
   top: 2rem;
   right: 2rem;
->>>>>>> b6b588d99d7c90628f9007e851987c2f9f6da3d5
   position: relative;
   width: auto;
 }

@@ -9,10 +9,14 @@
     "customConfig": {
         "pageWidth": "99vw",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "pageMargin": "15vw",
 =======
         "pageMargin": "10rem",
 >>>>>>> 72276277d07a8154b05a9ac61e90daa896d28e8e
+=======
+        "pageMargin": "15vw",
+>>>>>>> b6b588d99d7c90628f9007e851987c2f9f6da3d5
         "entryWidth": "62ch",
         "frontSource": "post",
         "frontPost": 3,
