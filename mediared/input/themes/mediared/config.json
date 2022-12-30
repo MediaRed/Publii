@@ -404,6 +404,14 @@
             "type": "text"
         },
         {
+            "name": "aspectRatioHero",
+            "label": "Aspect Ratio Image",
+            "group": "Hero section",
+            "note": "16/9 recommended",
+            "value": "16/9",
+            "type": "text"
+        },
+        {
             "name": "backgroundHero",
             "label": "Background",
             "group": "Hero section",
@@ -589,27 +597,6 @@
             "type": "colorpicker"
         },
         {
-            "name": "textColor",
-            "label": "Text color",
-            "group": "Colors",
-            "value": "#111111",
-            "type": "colorpicker"
-        },
-        {
-            "name": "primaryHeaderColor",
-            "label": "Primary header color",
-            "group": "Colors",
-            "value": "#f8a9bc",
-            "type": "colorpicker"
-        },
-        {
-            "name": "headerTextColor",
-            "label": "Header Text color",
-            "group": "Colors",
-            "value": "#111111",
-            "type": "colorpicker"
-        },
-        {
             "name": "primaryBodyColor",
             "label": "Primary body color",
             "group": "Colors",
@@ -618,21 +605,42 @@
         },
         {
             "name": "primaryBodyTextColor",
-            "label": "Body text color",
+            "label": "Primary body text color",
             "group": "Colors",
-            "value": "#111111",
+            "value": "#6B78B4",
+            "type": "colorpicker"
+        },
+        {
+            "name": "primaryHeaderColor",
+            "label": "Primary header color",
+            "group": "Colors",
+            "value": "#6B78B4",
+            "type": "colorpicker"
+        },
+        {
+            "name": "primaryHeaderTextColor",
+            "label": "Primary header text color",
+            "group": "Colors",
+            "value": "#6B78B4",
             "type": "colorpicker"
         },
         {
             "name": "primaryFooterColor",
             "label": "Primary footer color",
             "group": "Colors",
-            "value": "#f8a9bc",
+            "value": "#6B78B4",
             "type": "colorpicker"
         },
         {
             "name": "primaryFooterTextColor",
-            "label": "Footer text color",
+            "label": "Primary footer text color",
+            "group": "Colors",
+            "value": "#6B78B4",
+            "type": "colorpicker"
+        },
+        {
+            "name": "textColor",
+            "label": "Text color",
             "group": "Colors",
             "value": "#111111",
             "type": "colorpicker"
