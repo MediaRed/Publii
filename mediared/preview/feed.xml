@@ -3,91 +3,12 @@
     <title>Mediared</title>
     <link href="file:////home/tom/Documents/Publii/mediared/preview/feed.xml" rel="self" />
     <link href="file:////home/tom/Documents/Publii/mediared/preview" />
-    <updated>2022-12-30T13:19:30-03:00</updated>
+    <updated>2022-12-30T15:45:28-03:00</updated>
     <author>
         <name>ivonne dos santos</name>
     </author>
     <id>file:////home/tom/Documents/Publii/mediared/preview</id>
 
-    <entry>
-        <title>Test</title>
-        <author>
-            <name>ivonne dos santos</name>
-        </author>
-        <link href="file:////home/tom/Documents/Publii/mediared/preview/test/index.html"/>
-        <id>file:////home/tom/Documents/Publii/mediared/preview/test/index.html</id>
-
-        <updated>2022-12-30T13:19:30-03:00</updated>
-            <summary>
-                <![CDATA[
-                    Test 1 undefined {{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                
-  <div  class="cards-wrapper">
-    <div class="cards" data-columns="3">
-      <figure class="cards__item external col3" >
-      <a class="card_link external" href="" data-size="1920x1200">
-        <div class="card_wrapper  circular" :class="{heigh: 1200, overflow: hidden}">
-          <img loading="lazy" 
-            class="card_image external  circular"
-            {{#if @config.site.responsiveImages}}
-                {{responsiveImageAttributes 'tagImage' srcset.cards sizes.cards}}
-            {{/if}}
-            {{ lazyload "eager" }}
-            src="file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/2vmom5p.jpg" 
-            height="1200" 
-            width="1920" 
-            alt=""  sizes="(max-width: 1024px) 100vw, 1024px" srcset="file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/responsive/2vmom5p-xs.jpg 300w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/responsive/2vmom5p-sm.jpg 480w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/responsive/2vmom5p-md.jpg 768w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/responsive/2vmom5p-lg.jpg 1024w">
-        </div>
-        <h3 class="card-title external">Test 1</h3>
-        <h6  class="card-subtitle external">undefined</h6>
-        <figcaption class="card-caption external">{{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}}</figcaption>
-      </a>
-    </figure><figure class="cards__item external col3" >
-      <a class="card_link external" href="" data-size="1920x1280">
-        <div class="card_wrapper  circular" :class="{heigh: 1280, overflow: hidden}">
-          <img loading="lazy" 
-            class="card_image external  circular"
-            {{#if @config.site.responsiveImages}}
-                {{responsiveImageAttributes 'tagImage' srcset.cards sizes.cards}}
-            {{/if}}
-            {{ lazyload "eager" }}
-            src="file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/24.jpg" 
-            height="1280" 
-            width="1920" 
-            alt=""  sizes="(max-width: 1024px) 100vw, 1024px" srcset="file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/responsive/24-xs.jpg 300w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/responsive/24-sm.jpg 480w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/responsive/24-md.jpg 768w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/responsive/24-lg.jpg 1024w">
-        </div>
-        <h3 class="card-title external">Titulo 2</h3>
-        <h6  class="card-subtitle external">undefined</h6>
-        <figcaption class="card-caption external">{{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}}</figcaption>
-      </a>
-    </figure><figure class="cards__item external col3" >
-      <a class="card_link external" href="" data-size="2560x1440">
-        <div class="card_wrapper  circular" :class="{heigh: 1440, overflow: hidden}">
-          <img loading="lazy" 
-            class="card_image external  circular"
-            {{#if @config.site.responsiveImages}}
-                {{responsiveImageAttributes 'tagImage' srcset.cards sizes.cards}}
-            {{/if}}
-            {{ lazyload "eager" }}
-            src="file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/18032.jpg" 
-            height="1440" 
-            width="2560" 
-            alt=""  sizes="(max-width: 1024px) 100vw, 1024px" srcset="file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/responsive/18032-xs.jpg 300w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/responsive/18032-sm.jpg 480w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/responsive/18032-md.jpg 768w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/19/responsive/18032-lg.jpg 1024w">
-        </div>
-        <h3 class="card-title external">Titulo 3</h3>
-        <h6  class="card-subtitle external">undefined</h6>
-        <figcaption class="card-caption external">{{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.}}</figcaption>
-      </a>
-    </figure>
-    </div>
-  </div>
-            ]]>
-        </content>
-    </entry>
     <entry>
         <title>Otros Proyectos</title>
         <author>
@@ -98,7 +19,7 @@
         <media:content url="file:////home/tom/Documents/Publii/mediared/preview/media/posts/18/nitep2.jpg" medium="image" />
             <category term="Proyectos"/>
 
-        <updated>2022-12-21T18:41:45-03:00</updated>
+        <updated>2022-12-20T00:02:08-03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="file:////home/tom/Documents/Publii/mediared/preview/media/posts/18/nitep2.jpg" alt="" />
@@ -124,7 +45,7 @@
         <media:content url="file:////home/tom/Documents/Publii/mediared/preview/media/posts/17/BET_2053-xl.jpg" medium="image" />
             <category term="Proyectos"/>
 
-        <updated>2022-12-21T18:44:53-03:00</updated>
+        <updated>2022-12-20T00:02:17-03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="file:////home/tom/Documents/Publii/mediared/preview/media/posts/17/BET_2053-xl.jpg" alt="" />
@@ -171,7 +92,7 @@
         </content>
     </entry>
     <entry>
-        <title>Articulación</title>
+        <title>Gestión Cultural</title>
         <author>
             <name>ivonne dos santos</name>
         </author>
@@ -180,7 +101,7 @@
         <media:content url="file:////home/tom/Documents/Publii/mediared/preview/media/posts/15/photo_2022-10-17_13-35-19.jpg" medium="image" />
             <category term="Servicios"/>
 
-        <updated>2022-12-20T00:02:29-03:00</updated>
+        <updated>2022-12-28T20:11:00-03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="file:////home/tom/Documents/Publii/mediared/preview/media/posts/15/photo_2022-10-17_13-35-19.jpg" alt="" />
@@ -190,61 +111,9 @@
         <content type="html">
             <![CDATA[
                     <p><img src="file:////home/tom/Documents/Publii/mediared/preview/media/posts/15/photo_2022-10-17_13-35-19.jpg" class="type:primaryImage" alt="" /></p>
-                <p>Articulamos de forma transparente la información relevante sobre un sector, actividad o colectivo a las administraciones públicas, institucionales o privadas.<br>Hay que destacar que en las sociedades actuales la libertad de expresión se ejerce no sólo a través de las personas sino también mediante las organizaciones públicas o privadas de la sociedad civil. En este sentido, las relaciones institucionales son una forma de canalizar esta libertad de expresión y establecer comunicación entre diferentes entidades de todas las esferas.</p>
-<p> </p>
-<p>El relacionamiento institucional es parte de nuestros servicios profesionales orientados a defender los intereses legítimos de colectivos y organizaciones ante las administraciones públicas o privadas, y en trasladar de manera transparente la información de un sector, actividad o colectivo a otro.<br>Gestionamos y colaboramos en la elaboración y puesta en funcionamiento de proyectos y financiaciones, así como en la búsqueda y postulación a las mismas.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Arte &amp; Cultura</title>
-        <author>
-            <name>ivonne dos santos</name>
-        </author>
-        <link href="file:////home/tom/Documents/Publii/mediared/preview/arte-and-cultura/index.html"/>
-        <id>file:////home/tom/Documents/Publii/mediared/preview/arte-and-cultura/index.html</id>
-        <media:content url="file:////home/tom/Documents/Publii/mediared/preview/media/posts/13/cuerpo-y-territorio-xl.png" medium="image" />
-            <category term="Servicios"/>
-
-        <updated>2022-12-20T00:02:34-03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="file:////home/tom/Documents/Publii/mediared/preview/media/posts/13/cuerpo-y-territorio-xl.png" alt="" />
-                    Creemos en un futuro con más igualdad de derechos y oportunidades. Consideramos&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="file:////home/tom/Documents/Publii/mediared/preview/media/posts/13/cuerpo-y-territorio-xl.png" class="type:primaryImage" alt="" /></p>
-                
-  <p>
-    Creemos en un futuro con más igualdad de derechos y oportunidades. <br><br>Consideramos que el arte y la cultura son elementos de transformación social por lo que realizamos un trabajo de visibilización de contenidos a través de redes sociales como plataforma para compartir noticias, fotos y actividades emergentes que abordan las temáticas que compartimos; como también producimos intervenciones urbanas, muestras y otras actividades de acción artístico-cultural.<br><br>Poseemos un equipo especializado en gestión cultural, que puede concretar ideas artísticas y culturales, en acciones concretas.<br>
-  </p>
-
-  <div  class="gallery-wrapper">
-    <div class="gallery" data-columns="3">
-      <figure class="gallery__item">
-      <a href="file:///home/tom/Documents/Publii/mediared/preview/media/posts/13/gallery/gatita-xl.jpg" data-size="1200x600">
-        <img loading="lazy" src="file:///home/tom/Documents/Publii/mediared/preview/media/posts/13/gallery/gatita-xl-thumbnail.jpg" height="384" width="768" alt=""  sizes="(max-width: 1024px) 100vw, 1024px" srcset="file:///home/tom/Documents/Publii/mediared/preview/media/posts/13/gallery/responsive/gatita-xl-thumbnail-xs.jpg 300w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/13/gallery/responsive/gatita-xl-thumbnail-sm.jpg 480w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/13/gallery/responsive/gatita-xl-thumbnail-md.jpg 768w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/13/gallery/responsive/gatita-xl-thumbnail-lg.jpg 1024w">
-      </a>
-      
-    </figure><figure class="gallery__item">
-      <a href="file:///home/tom/Documents/Publii/mediared/preview/media/posts/13/gallery/INEhumo-thumbnail.jpg" data-size="768x513">
-        <img loading="lazy" src="file:///home/tom/Documents/Publii/mediared/preview/media/posts/13/gallery/INEhumo-thumbnail-thumbnail.jpg" height="513" width="768" alt=""  sizes="(max-width: 1024px) 100vw, 1024px" srcset="file:///home/tom/Documents/Publii/mediared/preview/media/posts/13/gallery/responsive/INEhumo-thumbnail-thumbnail-xs.jpg 300w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/13/gallery/responsive/INEhumo-thumbnail-thumbnail-sm.jpg 480w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/13/gallery/responsive/INEhumo-thumbnail-thumbnail-md.jpg 768w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/13/gallery/responsive/INEhumo-thumbnail-thumbnail-lg.jpg 1024w">
-      </a>
-      
-    </figure><figure class="gallery__item">
-      <a href="file:///home/tom/Documents/Publii/mediared/preview/media/posts/13/gallery/ine-yemanja-xl.jpg" data-size="1360x908">
-        <img loading="lazy" src="file:///home/tom/Documents/Publii/mediared/preview/media/posts/13/gallery/ine-yemanja-xl-thumbnail.jpg" height="513" width="768" alt=""  sizes="(max-width: 1024px) 100vw, 1024px" srcset="file:///home/tom/Documents/Publii/mediared/preview/media/posts/13/gallery/responsive/ine-yemanja-xl-thumbnail-xs.jpg 300w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/13/gallery/responsive/ine-yemanja-xl-thumbnail-sm.jpg 480w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/13/gallery/responsive/ine-yemanja-xl-thumbnail-md.jpg 768w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/13/gallery/responsive/ine-yemanja-xl-thumbnail-lg.jpg 1024w">
-      </a>
-      
-    </figure>
-    </div>
-  </div>
-
-  <p>
-    
-  </p>
+                <p class="msg--highlight">Articulamos de forma transparente la información relevante sobre un sector, actividad o colectivo a las administraciones públicas, institucionales o privadas.<br>Hay que destacar que en las sociedades actuales la libertad de expresión se ejerce no sólo a través de las personas sino también mediante las organizaciones públicas o privadas de la sociedad civil. En este sentido, las relaciones institucionales son una forma de canalizar esta libertad de expresión y establecer comunicación entre diferentes entidades de todas las esferas.</p>
+<p class="msg--highlight">El relacionamiento institucional es parte de nuestros servicios profesionales orientados a defender los intereses legítimos de colectivos y organizaciones ante las administraciones públicas o privadas, y en trasladar de manera transparente la información de un sector, actividad o colectivo a otro.<br>Gestionamos y colaboramos en la elaboración y puesta en funcionamiento de proyectos y financiaciones, así como en la búsqueda y postulación a las mismas.</p>
+<p class="msg--highlight">Poseemos un equipo especializado en gestión cultural, que puede concretar ideas artísticas y culturales, en acciones concretas.</p>
             ]]>
         </content>
     </entry>
@@ -306,7 +175,7 @@
         <media:content url="file:////home/tom/Documents/Publii/mediared/preview/media/posts/11/ine-yemanja-xl.jpg" medium="image" />
             <category term="Servicios"/>
 
-        <updated>2022-12-20T00:02:51-03:00</updated>
+        <updated>2022-12-28T20:16:35-03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="file:////home/tom/Documents/Publii/mediared/preview/media/posts/11/ine-yemanja-xl.jpg" alt="" />
@@ -318,12 +187,23 @@
                     <p><img src="file:////home/tom/Documents/Publii/mediared/preview/media/posts/11/ine-yemanja-xl.jpg" class="type:primaryImage" alt="" /></p>
                 
   <p>
-    Creamos nuestras propias metodologías libres, participativas y colaborativas, siendo sujetas activas de esta transformación.<br><br>Somos los agentes del cambio social y cultural, adquiriendo un rol fundamental en la democratización de la información y el conocimiento, así como del acceso a las tecnologías sociales, a través de una cultura de red, libre y colaborativa.<br><br>Brindamos una comunicación a tu medida en:<br><br> Diagnóstico:<br> Consultorías:<br> Campañas:<br> Gestión de redes sociales:<br> Productos audiovisuales:<br> Productos gráficos:<br> Productos digitales:
+    Creamos nuestras propias metodologías libres, participativas y colaborativas, siendo sujetas activas de esta transformación.<br><br>Somos los agentes del cambio social y cultural, adquiriendo un rol fundamental en la democratización de la información y el conocimiento, así como del acceso a las tecnologías sociales, a través de una cultura de red, libre y colaborativa.<br><br>Brindamos una comunicación a tu medida en:<br><br> Diagnóstico:<br> Consultorías:<br> Campañas:<br> Gestión de redes sociales:<br> Productos audiovisuales:<br> Productos gráficos:<br><br> Productos digitales:
   </p>
 
-  <p>
-    
-  </p>
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="file:///home/tom/Documents/Publii/mediared/preview/media/posts/11/photo_2022-10-14_14-54-16.jpg" height="1280" width="1024" alt=""  sizes="(max-width: 1024px) 100vw, 1024px" srcset="file:///home/tom/Documents/Publii/mediared/preview/media/posts/11/responsive/photo_2022-10-14_14-54-16-xs.jpg 300w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/11/responsive/photo_2022-10-14_14-54-16-sm.jpg 480w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/11/responsive/photo_2022-10-14_14-54-16-md.jpg 768w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/11/responsive/photo_2022-10-14_14-54-16-lg.jpg 1024w">
+      <figcaption>Productos audiovisuales</figcaption>
+    </figure>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="file:///home/tom/Documents/Publii/mediared/preview/media/posts/11/photo_2022-10-14_14-54-28.jpg" height="1024" width="1280" alt=""  sizes="(max-width: 1024px) 100vw, 1024px" srcset="file:///home/tom/Documents/Publii/mediared/preview/media/posts/11/responsive/photo_2022-10-14_14-54-28-xs.jpg 300w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/11/responsive/photo_2022-10-14_14-54-28-sm.jpg 480w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/11/responsive/photo_2022-10-14_14-54-28-md.jpg 768w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/11/responsive/photo_2022-10-14_14-54-28-lg.jpg 1024w">
+      
+    </figure>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="" height="" width="" alt=""  data-is-external-image="true">
+      
+    </figure>
             ]]>
         </content>
     </entry>
@@ -363,11 +243,11 @@
         <id>file:////home/tom/Documents/Publii/mediared/preview/inicio/index.html</id>
         <media:content url="file:////home/tom/Documents/Publii/mediared/preview/media/posts/3/violeta.jpg" medium="image" />
 
-        <updated>2022-12-29T17:43:00-03:00</updated>
+        <updated>2022-12-30T15:45:28-03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="file:////home/tom/Documents/Publii/mediared/preview/media/posts/3/violeta.jpg" alt="" />
-                    Comunicación alternativa, hecha con amor y convicción en Uruguay cooperativa undefined {{blah&hellip;
+                    Comunicación alternativa, hecha con amor y convicción en Uruguay Servicios undefined {{Comunicación&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -381,66 +261,143 @@
   <div  class="cards-wrapper cards-wrapper--full">
     <div class="cards" data-columns="3">
       <figure class="cards__item internal col3" >
-      <a class="card_link internal" href="https://publii.mediared.uy/cooperativa" data-size="800x484">
-        <div class="card_wrapper " :class="{heigh: 484, overflow: hidden}">
+      <a class="card_link internal" href="https://publii.mediared.uy/Servicios" data-size="464.4x291.21">
+        <div class="card_wrapper " :class="{heigh: 291.21, overflow: hidden}">
           <img loading="lazy" 
             class="card_image internal "
             {{#if @config.site.responsiveImages}}
                 {{responsiveImageAttributes 'tagImage' srcset.cards sizes.cards}}
             {{/if}}
             {{ lazyload "eager" }}
-            src="file:///home/tom/Documents/Publii/mediared/preview/media/posts/3/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg" 
-            height="484" 
-            width="800" 
-            alt=""  sizes="(max-width: 1024px) 100vw, 1024px" srcset="file:///home/tom/Documents/Publii/mediared/preview/media/posts/3/responsive/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647-xs.jpg 300w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/3/responsive/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647-sm.jpg 480w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/3/responsive/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647-md.jpg 768w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/3/responsive/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647-lg.jpg 1024w">
-        </div>
-        <h3 class="card-title internal">cooperativa</h3>
-        <h6  class="card-subtitle internal">undefined</h6>
-        <figcaption class="card-caption internal">{{blah blah }}</figcaption>
-      </a>
-    </figure><figure class="cards__item internal col3" >
-      <a class="card_link internal" href="https://publii.mediared.uy//tags/servicios" data-size="612x384">
-        <div class="card_wrapper " :class="{heigh: 384, overflow: hidden}">
-          <img loading="lazy" 
-            class="card_image internal "
-            {{#if @config.site.responsiveImages}}
-                {{responsiveImageAttributes 'tagImage' srcset.cards sizes.cards}}
-            {{/if}}
-            {{ lazyload "eager" }}
-            src="file:///home/tom/Documents/Publii/mediared/preview/media/posts/3/istockphoto-517188688-612x612.jpg" 
-            height="384" 
-            width="612" 
-            alt=""  sizes="(max-width: 1024px) 100vw, 1024px" srcset="file:///home/tom/Documents/Publii/mediared/preview/media/posts/3/responsive/istockphoto-517188688-612x612-xs.jpg 300w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/3/responsive/istockphoto-517188688-612x612-sm.jpg 480w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/3/responsive/istockphoto-517188688-612x612-md.jpg 768w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/3/responsive/istockphoto-517188688-612x612-lg.jpg 1024w">
+            src="file:///home/tom/Documents/Publii/mediared/preview/media/posts/3/1-01.svg" 
+            height="291.21" 
+            width="464.4" 
+            alt="" >
         </div>
         <h3 class="card-title internal">Servicios</h3>
         <h6  class="card-subtitle internal">undefined</h6>
-        <figcaption class="card-caption internal">{{}}</figcaption>
+        <figcaption class="card-caption internal">{{Comunicación alternativa a tu medida}}</figcaption>
       </a>
     </figure><figure class="cards__item internal col3" >
-      <a class="card_link internal" href="https://publii.mediared.uy//tags/proyectos" data-size="771x480">
-        <div class="card_wrapper " :class="{heigh: 480, overflow: hidden}">
+      <a class="card_link internal" href="https://publii.mediared.uy/Proyectos" data-size="202.53x275.3">
+        <div class="card_wrapper " :class="{heigh: 275.3, overflow: hidden}">
           <img loading="lazy" 
             class="card_image internal "
             {{#if @config.site.responsiveImages}}
                 {{responsiveImageAttributes 'tagImage' srcset.cards sizes.cards}}
             {{/if}}
             {{ lazyload "eager" }}
-            src="file:///home/tom/Documents/Publii/mediared/preview/media/posts/3/tree-736885__480-1.jpg" 
-            height="480" 
-            width="771" 
-            alt=""  sizes="(max-width: 1024px) 100vw, 1024px" srcset="file:///home/tom/Documents/Publii/mediared/preview/media/posts/3/responsive/tree-736885__480-1-xs.jpg 300w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/3/responsive/tree-736885__480-1-sm.jpg 480w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/3/responsive/tree-736885__480-1-md.jpg 768w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/3/responsive/tree-736885__480-1-lg.jpg 1024w">
+            src="file:///home/tom/Documents/Publii/mediared/preview/media/posts/3/corazon-icono-01.svg" 
+            height="275.3" 
+            width="202.53" 
+            alt="" >
         </div>
         <h3 class="card-title internal">Proyectos</h3>
         <h6  class="card-subtitle internal">undefined</h6>
-        <figcaption class="card-caption internal">{{blah}}</figcaption>
+        <figcaption class="card-caption internal">{{Nuestra experiencia acumulada}}</figcaption>
+      </a>
+    </figure><figure class="cards__item internal col3" >
+      <a class="card_link internal" href="https://publii.mediared.uy/Cooperativa" data-size="545.09x291.21">
+        <div class="card_wrapper " :class="{heigh: 291.21, overflow: hidden}">
+          <img loading="lazy" 
+            class="card_image internal "
+            {{#if @config.site.responsiveImages}}
+                {{responsiveImageAttributes 'tagImage' srcset.cards sizes.cards}}
+            {{/if}}
+            {{ lazyload "eager" }}
+            src="file:///home/tom/Documents/Publii/mediared/preview/media/posts/3/2-01-2.svg" 
+            height="291.21" 
+            width="545.09" 
+            alt="" >
+        </div>
+        <h3 class="card-title internal">Cooperativa</h3>
+        <h6  class="card-subtitle internal">undefined</h6>
+        <figcaption class="card-caption internal">{{Nuestro equipo de trabajo cooperativo}}</figcaption>
       </a>
     </figure>
     </div>
   </div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Quienes somos</title>
+        <author>
+            <name>ivonne dos santos</name>
+        </author>
+        <link href="file:////home/tom/Documents/Publii/mediared/preview/cooperativa/index.html"/>
+        <id>file:////home/tom/Documents/Publii/mediared/preview/cooperativa/index.html</id>
+        <media:content url="file:////home/tom/Documents/Publii/mediared/preview/media/posts/1/photo_2022-10-17_13-32-02.jpg" medium="image" />
+
+        <updated>2022-12-28T20:37:34-03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="file:////home/tom/Documents/Publii/mediared/preview/media/posts/1/photo_2022-10-17_13-32-02.jpg" alt="" />
+                    Después de varios años de articulación con personas y colectivos feministas del&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="file:////home/tom/Documents/Publii/mediared/preview/media/posts/1/photo_2022-10-17_13-32-02.jpg" class="type:primaryImage" alt="" /></p>
+                
+  <p>
+    Después de varios años de articulación con personas y colectivos feministas del Uruguay, MediaRed se propone potenciar esta gran Red y expandir por todo el territorio nacional, e interior rural, las metodologías de trabajo colaborativo que ha construido en estos años de activismo social, buscando crear otras formas de estar juntas, siendo sujetas políticas de la transformación social y cultural. Entendiendo que hoy la disputa por la democratización de la información, la cultura libre y la búsqueda de verdad y enunciación de todo acto de racismo, violencia, y atropello de los pueblos, debe ser narrada desde el sentir colectivo y comunitario. Este colectivo no es ajeno a nada de lo que le preocupa y por eso crea sus propias narrativas, con amor y convicción.<br>
+  </p>
 
   <p>
-    
+    El componente fundamental de financiación de MediaRed son nuestras horas de vida, destinadas al trabajo activista que realizamos les integrantes del grupo. La búsqueda por la sustentabilidad de la vida y de este espacio, continúa siendo un desafío para el colectivo.<br>
   </p>
+
+  <p>
+    Luego de tres años de trabajo juntos y juntas, en el 2020 MediaRed evaluó la posibilidad de consolidarse como cooperativa de trabajo para brindar entre otras cosas, servicios de comunicación, que nos ayuden a sustentar las tareas de activismo que desarrollamos. En febrero de 2021, firmamos el estatuto, para conformarnos como tal y se puso en marcha el proyecto de la Cooperativa de Trabajo MediaRed.<br>Hoy la Cooperativa ya en funcionamiento es integrada por un equipo multidisciplinario que ofrece soluciones en comunicación.<br><br>Equipo<br>Definir si va foto o avatar// rol o minibio
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="file:///home/tom/Documents/Publii/mediared/preview/media/posts/1/ivo.jpg" height="469" width="395" alt=""  sizes="(max-width: 1024px) 100vw, 1024px" srcset="file:///home/tom/Documents/Publii/mediared/preview/media/posts/1/responsive/ivo-xs.jpg 300w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/1/responsive/ivo-sm.jpg 480w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/1/responsive/ivo-md.jpg 768w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/1/responsive/ivo-lg.jpg 1024w">
+      <figcaption>Ivonne Dos Santos</figcaption>
+    </figure>
+
+  <div  class="cards-wrapper">
+    <div class="cards" data-columns="3">
+      <figure class="cards__item external col2" >
+      <a class="card_link external" href="" data-size="1024x1280">
+        <div class="card_wrapper " :class="{heigh: 1280, overflow: hidden}">
+          <img loading="lazy" 
+            class="card_image external "
+            {{#if @config.site.responsiveImages}}
+                {{responsiveImageAttributes 'tagImage' srcset.cards sizes.cards}}
+            {{/if}}
+            {{ lazyload "eager" }}
+            src="file:///home/tom/Documents/Publii/mediared/preview/media/posts/1/photo_2022-10-14_14-53-54-2.jpg" 
+            height="1280" 
+            width="1024" 
+            alt=""  sizes="(max-width: 1024px) 100vw, 1024px" srcset="file:///home/tom/Documents/Publii/mediared/preview/media/posts/1/responsive/photo_2022-10-14_14-53-54-2-xs.jpg 300w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/1/responsive/photo_2022-10-14_14-53-54-2-sm.jpg 480w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/1/responsive/photo_2022-10-14_14-53-54-2-md.jpg 768w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/1/responsive/photo_2022-10-14_14-53-54-2-lg.jpg 1024w">
+        </div>
+        <h3 class="card-title external">undefined</h3>
+        <h6  class="card-subtitle external">undefined</h6>
+        <figcaption class="card-caption external">{{}}</figcaption>
+      </a>
+    </figure><figure class="cards__item external col2" >
+      <a class="card_link external" href="" data-size="1280x1024">
+        <div class="card_wrapper " :class="{heigh: 1024, overflow: hidden}">
+          <img loading="lazy" 
+            class="card_image external "
+            {{#if @config.site.responsiveImages}}
+                {{responsiveImageAttributes 'tagImage' srcset.cards sizes.cards}}
+            {{/if}}
+            {{ lazyload "eager" }}
+            src="file:///home/tom/Documents/Publii/mediared/preview/media/posts/1/photo_2022-10-14_14-54-28.jpg" 
+            height="1024" 
+            width="1280" 
+            alt=""  sizes="(max-width: 1024px) 100vw, 1024px" srcset="file:///home/tom/Documents/Publii/mediared/preview/media/posts/1/responsive/photo_2022-10-14_14-54-28-xs.jpg 300w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/1/responsive/photo_2022-10-14_14-54-28-sm.jpg 480w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/1/responsive/photo_2022-10-14_14-54-28-md.jpg 768w ,file:///home/tom/Documents/Publii/mediared/preview/media/posts/1/responsive/photo_2022-10-14_14-54-28-lg.jpg 1024w">
+        </div>
+        <h3 class="card-title external">undefined</h3>
+        <h6  class="card-subtitle external">undefined</h6>
+        <figcaption class="card-caption external">{{}}</figcaption>
+      </a>
+    </figure>
+    </div>
+  </div>
             ]]>
         </content>
     </entry>

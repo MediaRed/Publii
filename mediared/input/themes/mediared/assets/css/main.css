@@ -37,6 +37,7 @@ textarea {
 .amarillo {
   background: var(--primaryHeaderColor);
   padding: 2rem;
+  margin: 0;
 }
 address {
   font-style: normal;
@@ -733,14 +734,17 @@ textarea {
   width: auto;
   object-fit: cover;
 }
-.card_wrapper {
+.card_wrapper, .card-title.external, .card-subtitle.external {
   overflow: hidden;
+}
+.card-subtitle.external {
+  text-align: center;
 }
 .card_wrapper.circular {
   border-radius: 50%;
 }
 
-.cards__item.external , .card-title.external, .card-caption.external, .card_image.external {
+.cards__item.external , .card-title.external, .card-subtitle.external, .card-caption.external, .card_image.external {
   aspect-ratio: unset;
   text-shadow: unset;
   overflow: auto;
@@ -762,12 +766,12 @@ max-height: auto;
 aspect-ratio: unset;
 overflow: auto;
 }
-  .cards-wrapper {
+
+.cards-wrapper {
   display: flex;
-  margin: 1rem;
+  margin: var(--page-margin);
   outline: none;
   position: relative;
-
 }
 .page, .wrapper {
   min-height: 80vh;
@@ -2157,28 +2161,35 @@ a.button {
   color: var(--gray-1);
   font-size: 0.8239746086rem;
 }
+
 .post_entry > div, .post_entry > p {
-  margin-left: 5rem;
-  padding-left: 5rem;
+  margin-left: var(--page-margin);
+  padding-left: var(--page-margin);
   display: flex;
   flex-direction: column;
-  width: 90vw;
+  width: 100%;
 }
 
 .post__page {
-  margin: calc(3rem + 1.5vw);
+  margin: var(--page-margin);
 }
 @media all and (min-width: 56.25em) {
   .post__entry {
     margin-top: 0;
   }
   .post__page {
-    margin: .5rem;
+    margin: var(--page-margin);
+  }
+  
+}
+@media all and (max-width: 37.5em) {
+  .post__page {
+    margin: 1rem;
   }
 }
 
 .post__entry > :nth-child(1) {
-  margin-top: 0;
+  margin: 0;
 }
 .post__entry a:not(.btn):not([type=button]):not([type=submit]):not(button):hover {
   text-decoration: underline;

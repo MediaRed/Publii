@@ -35,7 +35,7 @@
         "twitterCardsType": "summary_large_image",
         "twitterUsername": "mediared",
         "metaTitle": "MediaRed Cooperativa",
-        "metaDescription": "",
+        "metaDescription": "Comunicación alternativa, hecha con amor y convicción desde Uruguay",
         "noIndexThisPage": false,
         "homepageNoIndexPagination": false,
         "metaRobotsIndex": "index, follow",
@@ -175,8 +175,8 @@
             "customProvider": false,
             "provider": "aws",
             "endpoint": "",
-            "id": "publii-s3-id uuid-1666019827094-637688804",
-            "key": "publii-s3-key uuid-1666019827094-637688804",
+            "id": "",
+            "key": "",
             "bucket": "",
             "region": "",
             "prefix": "",
@@ -188,7 +188,7 @@
             "user": "",
             "repo": "",
             "branch": "",
-            "token": "publii-gh-token uuid-1666019827094-637688804",
+            "token": "",
             "parallelOperations": 1,
             "apiRateLimiting": 1
         },
@@ -196,11 +196,11 @@
             "server": "https://gitlab.com/",
             "repo": "",
             "branch": "",
-            "token": "publii-gl-token uuid-1666019827094-637688804"
+            "token": ""
         },
         "netlify": {
-            "id": "publii-netlify-id uuid-1666019827094-637688804",
-            "token": "publii-netlify-token uuid-1666019827094-637688804"
+            "id": "",
+            "token": ""
         },
         "google": {
             "key": "",
@@ -213,5 +213,5 @@
         }
     },
     "theme": "mediared",
-    "syncDate": 1670614797069
+    "syncDate": 1672267267139
 }
