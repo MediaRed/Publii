@@ -407,7 +407,15 @@
             "name": "aspectRatioHero",
             "label": "Aspect Ratio Image",
             "group": "Hero section",
+<<<<<<< HEAD
             "note": "21/9, 16/9, 4/3, 1  recommended",
+=======
+<<<<<<< HEAD
+            "note": "16/9 recommended",
+=======
+            "note": "21/9, 16/9, 4/3, 1 recommended",
+>>>>>>> d590c40 (update cards)
+>>>>>>> f6df92791b5c6ce2c93b6ae3079fa6b042c68e7b
             "value": "16/9",
             "type": "text"
         },
