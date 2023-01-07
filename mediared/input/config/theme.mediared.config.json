@@ -33,7 +33,7 @@
         "mobilemenuExpandableSubmenus": true,
         "widthHero": "hero--full",
         "heightMinHero": "10vh",
-        "heightMaxHero": "30vh",
+        "heightMaxHero": "35vh",
         "backgroundHero": "#111111",
         "opacityHero": "0.6",
         "displayHeroImage": false,

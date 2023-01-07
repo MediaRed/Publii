@@ -2806,12 +2806,17 @@ a.button {
 }
 .footer__social {
 <<<<<<< HEAD
+<<<<<<< HEAD
   top: -15vh;
   right: -16vh;
 =======
   top: 2rem;
   right: 2rem;
 >>>>>>> b6b588d99d7c90628f9007e851987c2f9f6da3d5
+=======
+  top: -15vh;
+  right: -16vh;
+>>>>>>> d590c40 (update cards)
   position: relative;
   width: auto;
 }
